@@ -10,7 +10,7 @@ class User {
         }
         
         addPets("lizard") {
-            console.log(`My pet is a ${this.pet}`)
+            
         }
 
         // countPets(){
