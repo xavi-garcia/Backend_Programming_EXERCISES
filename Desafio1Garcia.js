@@ -1,10 +1,9 @@
 class User {
-    constructor(name, surname, pets, books){
+    constructor(name, surname, pets){
             this.name = name;
             this.surname = surname;
             this.pets = pets;
-            this.books = books;
-            this.numberOfPets = 1;
+            this.numberOfPets = 0;
 
     }
 
@@ -13,7 +12,7 @@ class User {
     }
 
     addPets(){
-        return this.pets;
+         console.log(`I have : ${this.pets}`)
     }
 
     getNumberOfPets(){
@@ -22,12 +21,15 @@ class User {
 
     countPets(pets){
         this.numberOfPets += pets;
-    }
+    } 
 
 }
 
-const user1 = new User ('Javier', 'Garcia')
-console.log(user1.getFullName())
+
+const user1 = new User ('Javier', 'Garcia', ['lizard', 'bat'])
+console.log(user1)
+user1.getFullName()
+user1.addPets()
 user1.countPets(2)
 console.log(user1.numberOfPets)
 
