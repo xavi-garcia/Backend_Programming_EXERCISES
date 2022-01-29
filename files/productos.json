@@ -1,0 +1,20 @@
+[
+  {
+    "title": "funko Naruto Hokage",
+    "price": 48,
+    "thumbnail": "https://i.ibb.co/ggk7bht/Naruto-Hokage-300x300.jpg",
+    "id": 1
+  },
+  {
+    "title": "funko Pain",
+    "price": 55,
+    "thumbnail": "https://i.ibb.co/cXk89rH/Pain-300x300.jpg",
+    "id": 2
+  },
+  {
+    "title": "funko Nezuko",
+    "price": 40,
+    "thumbnail": "https://i.ibb.co/Fkp6kDY/Nezuko-300x300.jpg",
+    "id": 3
+  }
+]
