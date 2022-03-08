@@ -1,0 +1,20 @@
+<!-- <form action="/products" method="post">
+    <label>Product</label>
+    <input name="name">
+    <label>Brand</label>
+    <input name="last_name">
+    <label>Price</label>
+    <input name="age">
+    <button>Enviar</button>
+
+</form> -->
+<form action="/products" method="post">
+    <label>Product:</label>
+    <input name="name">
+    <label>Price:</label>
+    <input name="price">
+    <label>Image:</label>
+    <input type="file" name="file">
+    <input type="submit" id="button">
+</form>
+<%- include('./partials/history',{products:products})  %> 

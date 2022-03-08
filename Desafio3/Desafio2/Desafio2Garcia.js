@@ -55,7 +55,7 @@ class Container {
             let productos = JSON.parse(data);
             let nuevoProducto = productos.filter(producto=>producto.id!==id)
             await fs.promises.writeFile(pathToProducts,JSON.stringify(nuevoProducto,null,2))
-            return {status:"success", message:"producto borrado"}
+            return {status:"success", payload:"producto borrado"}
         }
     }
 
